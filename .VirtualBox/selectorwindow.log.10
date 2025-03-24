@@ -1,0 +1,25 @@
+00:00:00.574895 VirtualBox GUI VM Selector Window 7.1.6 r167084 win.amd64 (Jan 21 2025 14:13:52) release log
+00:00:00.574897 Log opened 2025-03-04T21:53:39.755577800Z
+00:00:00.574898 Build Type: release
+00:00:00.574901 OS Product: Windows 11
+00:00:00.574902 OS Release: 10.0.26100
+00:00:00.574902 OS Service Pack: 
+00:00:00.587949 DMI Product Name: Thin 15 B13UCX
+00:00:00.593929 DMI Product Version: REV:1.0
+00:00:00.593935 Firmware type: UEFI
+00:00:00.594525 Secure Boot: Enabled
+00:00:00.594532 Host RAM: 7895MB (7.7GB) total, 1216MB available
+00:00:00.594537 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.594537 Process ID: 12448
+00:00:00.594538 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.594538 Windows Features:
+00:00:00.594539   Core Isolation (Memory Integrity): ENABLED
+00:00:00.594750 Qt version: 6.5.3
+00:00:00.595564 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.617672 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.216440 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:12.921418 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:40.423698 ERROR [COM]: aRC=E_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:01:29.538991 ERROR [COM]: aRC=E_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:06:15.620808 GUI: UICommon: Handling aboutToQuit request..
+00:06:16.809221 GUI: UICommon: aboutToQuit request handled!
