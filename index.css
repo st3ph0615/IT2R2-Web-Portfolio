@@ -19,6 +19,9 @@ h1{
     font-family: cursive;
     font-size: 50px;
 }
+p{
+    margin-bottom: 50px;
+}
 .main-content{
     background-color: darkgrey;
     
@@ -44,19 +47,23 @@ h1{
     margin-bottom: 100px;   
     border: 5px solid;
 }
-button, .btn {
+
+.btn {
     background-color: #ffffff;
     color: #000;
     border: 2px solid black;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     text-decoration: none; 
 }
-button:hover, .btn:hover {
+
+.btn:hover {
     background-color: #000;
     color: #fff;
 }
+
+
 
