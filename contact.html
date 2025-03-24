@@ -13,28 +13,32 @@
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact Me</a>
     </nav>
-    <h1>Contact Me</h1>
-    <p>I'm always open to new opportunities, collaborations, and interesting conversations. <br> Feel free to reach out!</p>
-<address>
-    <p><b>Location:</b> <br>Cagayan de Oro City (Available for remote work worldwide)</p>
-    <p><b>Email:</b><br>salvaleon.stephanie15@gmail.com</p>
-    <p><b>Phone:</b><br>+639127937609</p>
-    <p><b>Social Media:</b><br>
-        <a href="https://github.com/st3ph0615">Github</a><br>
-        <a href="https://www.facebook.com/share/1BNzrYEtAV/?mibextid=wwXlfr">Facebook</a><br>
-        <a href="https://www.instagram.com/stephaniemercadejas/">Instagram</a>
-
-    </p>
-    </address>  
-
-    <form>
-        <label for="name">Name: </label>
-        <input type="text" id="name" name="name" required><br>
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="email" required><br>
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" required></textarea><br>
-        <button type="submit">Send</button>
-    </form>
+    <div class="container">
+        <div class="form-container">
+            <h1>Contact Me</h1>
+            <p>I'm always open to new opportunities, collaborations, and interesting conversations.</p>
+            <p><strong>Location:</strong> Cagayan de Oro City (Available for remote work worldwide)</p>
+            <p><strong>Email:</strong> <a href="salvaleon.stephanie15@gmail.com">salvaleon.stephanie15@gmail.com</a></p>
+            <p><strong>Phone:</strong> +639127937609</p>
+            <p><strong>Social Media:</strong> <a href="https://github.com/st3ph0615">Github</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+            
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <img src="./MyProfile.png" alt="Profile Picture" class="profile-img">
+    </div>
 </body>
 </html>
