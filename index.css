@@ -1,5 +1,29 @@
+@media (max-width: 599px) {  
+    body { font-size: 16px; }
+  }
+  
+@media (min-width: 600px) and (max-width: 767px) { 
+    body { font-size: 18px; }
+  }
+  
+@media (min-width: 768px) and (max-width: 1023px) { 
+    body { font-size: 20px; }
+  }
+  
+@media (min-width: 1024px) {
+    body { font-size: 22px; }
+  }
+
+
+  body {
+    height: auto;
+}
+
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .navbar{
     width: 100%;
@@ -23,6 +47,7 @@ p{
     margin-bottom: 50px;
 }
 .main-content{
+    height: auto;
     background-color: darkgrey;
     
 }
@@ -31,6 +56,7 @@ p{
     align-items: center;
     justify-content: center;
     gap: 100px;
+    height: 100%;
     background-color: rgb(120, 188, 188);
 
 }
@@ -44,7 +70,7 @@ p{
     float: right;
     margin-right: 100px;
     margin-top: 100px;
-    margin-bottom: 100px;   
+    margin-bottom: 150px;   
     border: 5px solid;
 }
 
